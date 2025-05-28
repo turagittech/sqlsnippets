@@ -29,7 +29,12 @@ ObjectName      : Name of the object that the user/role is assigned permissions 
                   definitions.
 ColumnName      : Name of the column of the object that the user/role is assigned permissions on. This value
                   is only populated if the object is a table, view or a table value function.
+				  
+File Origin     : This file was extracted from this stackOverflow, There are notes there that will help understanding 
+                  https://stackoverflow.com/questions/7048839/sql-server-query-to-find-all-permissions-access-for-all-users-in-a-database
 */
+
+
 
     --1) List all access provisioned to a SQL user or Windows user/group directly
     SELECT
